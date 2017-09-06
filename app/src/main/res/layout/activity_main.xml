@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/tv_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get请求"/>
+
+    <Button
+        android:id="@+id/tv_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post请求"/>
+
+    <Button
+        android:id="@+id/tv_upload_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传文件(提供文件路径)并且可以同时上传普通参数"/>
+
+    <Button
+        android:id="@+id/tv_upload_file_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传文件并且回调上传进度"/>
+
+    <Button
+        android:id="@+id/tv_upload_file_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单独上传文件内容(上传byte数组)"/>
+
+    <Button
+        android:id="@+id/tv_upload_file_content_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单独上传文件内容(上传byte数组)并且回调上传进度"/>
+
+    <Button
+        android:id="@+id/tv_download_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载文件"/>
+
+    <Button
+        android:id="@+id/tv_modify_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改公共参数版本号"/>
+</LinearLayout>
